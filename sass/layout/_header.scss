@@ -1,0 +1,27 @@
+.page-header{
+    padding: 15px 10px;
+}
+.conteiner{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+
+    @media screen (min-width: 1200px){
+        width: 1200px;
+        
+    }
+    @media screen (min-width: 768px){
+        width: 768px;
+
+    }
+
+    @media screen and (min width: 480px) {
+        width: 480px;
+    }
+  
+        
+    }
+
