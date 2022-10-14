@@ -9,19 +9,35 @@
     margin-right: auto;
     background-color: aqua;
 
-    @media screen (min-width: 1200px){
-        width: 1200px;
-        
-    }
-    @media screen (min-width: 768px){
-        width: 768px;
-
-    }
-
-    @media screen and (min width: 480px) {
+    @media screen and (min-width: 480px) {
         width: 480px;
+      }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+      }
+
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+      }
+
+     
     }
-  
-        
-    }
+    .navigation__logo {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        color: var(--accent-color);
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+      }
+      .navigation__logo--color {
+        color: var(--second-text);
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+      }
 
