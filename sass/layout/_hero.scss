@@ -1,0 +1,87 @@
+
+.hero{
+    
+    
+    @media screen and (min-width: 480px){
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+        text-align: center;
+        padding: 118px 60px;
+        margin: 0 auto;
+        width: 480px;
+        height: 400px;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
+         url(../../images/Header-1x.jpg) ;
+         @include retina{
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
+            url(../../images/Header-2x.jpg) ;
+         }
+         @include desktop{
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
+         url(../../images/tablet/Header-tablet-1x.jpg) ;
+         }
+         @include retina{
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
+         url(../../images/tablet/Header-tablet-2x.jpg) ;
+         }
+         @media screen and (min-width: 1200px){
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
+         url(../../images/desktop/hero-desk-1x.jpg) ;
+         @include retina{
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
+         url(../../images/desktop/hero-desk-2x.jpg) ;
+         }
+         }
+    }
+   
+    @media screen and (min-width: 768px){
+        display: flex;
+        font-family: 'Roboto';
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)), url(../../images/Header\ tab\ 1x.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+        text-align: center;
+        padding-top: 118px;
+        padding-bottom: 204px;
+        width: 768px;
+        height: 400px;
+        margin: 0 auto;}
+
+    @media screen and (min-width: 1200px){
+            display: flex;
+            font-family: 'Roboto';
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)), url(../images/Img\ hero.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 100%;
+            text-align: center;
+            padding-top: 200px;
+            padding-bottom: 200px;
+            width: 1600px;
+            height: 600px;
+            margin: 0 auto;}}
+
+.hero__conteiner{
+    display: block;
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    @media screen and (min-width: 766px){
+      
+        max-width: 1200px;
+      
+    }
+    }
+    
