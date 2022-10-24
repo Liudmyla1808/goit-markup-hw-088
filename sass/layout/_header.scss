@@ -54,7 +54,7 @@
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: $basic-color;
+  color:#212121;
 }
 
 .navigation__item:not(:last-child) {
@@ -71,14 +71,14 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: $accent-color;
+  color: #212121;
 }
 .contact__link {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: $contacts-and-paragraph-color;
+  color: #757575;
 }
 .navigation__list{
   margin-top: 45px;
@@ -102,10 +102,10 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: $accent-color;
+  color: var(--accent-color);
 }
 .navigation__link--current{
-  color: $accent-color;
+  color: var(--accent-color);
   margin-top: 45px;
 }
 

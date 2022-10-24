@@ -21,8 +21,8 @@
          }
  
  .button-pidpus{
-    margin-left: 140px;
-    margin-right: 140px;
+    // margin-left: 140px;
+    // margin-right: 140px;
     display: flex;
    align-items: center; 
    
@@ -43,4 +43,7 @@
     @media screen and (min-width: 1200px) {
         margin-left: 12px;
       }
-}
+      @media screen and (max-width: 1199px) {
+    margin-right: auto;
+    margin-left: auto;
+}}
