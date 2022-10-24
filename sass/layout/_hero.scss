@@ -15,25 +15,25 @@
       //   min-height: 400px;
         margin-bottom: 60px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
-         url(..//..//images/Header-1x.jpg) ;
+         url(..//../images/Header-1x.jpg) ;
          @include retina{
             background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
-            url(..//..//images/Header-2x.jpg) ;
+            url(..//../images/Header-2x.jpg) ;
          }
          @include desktop{
             background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
-         url(..//..//images/tablet/Header-tablet-1x.jpg) ;
+         url(..//../images/tablet/Header-tablet-1x.jpg) ;
          }
          @include retina{
             background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
-         url(..//..//images/tablet/Header-tablet-2x.jpg) ;
+         url(..//../images/tablet/Header-tablet-2x.jpg) ;
          }
          @media screen and (min-width: 1200px){
             background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
-         url(..//..//images/desktop/hero-desk-1x.jpg) ;
+         url(..//../images/desktop/hero-desk-1x.jpg) ;
          @include retina{
             background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)),
-         url(..//..//images/desktop/hero-desk-2x.jpg) ;
+         url(..//../images/desktop/hero-desk-2x.jpg) ;
          }
          }
     }
