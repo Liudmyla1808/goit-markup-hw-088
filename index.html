@@ -10,21 +10,52 @@
         <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
-        <!-- <header class="page-header">
+        <header class="page-header">
             <div class="conteinerr flex-conteiner">
                 <nav class="navigation">
                    <a href="./index.html" class="navigation__logo">Web<span class="navigation__logo navigation__logo--color">Studio</span></a>
-                    <button type="button" class="menu-toggle link js-open-menu" aria-label="перемикач моб меню" aria-expanded="false" aria-controls="mobile-menu">
+                   <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
                     <svg width="40" height="40" >
                         <use class="navigation__iconmenu" href="./images/sprite-mobil.svg#icon-menu_40px-1"></use>
                 
                     </svg>  
                     </button>
-                    <div class="menu__conteiner js-menu-container" id="mobile menu">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="./index.html"class="navigation__link navigation__link--current">Студія</a></li>
+                        <li class="navigation__item"><a href="./portfolio.html"class="navigation__link">Портфоліо</a></li>
+                        <li class="navigation__item"><a href="#"class="navigation__link">Контакти</a></li>
+                    </ul>
+                </nav>
+                <div class="header-contacts">
+                    <ul class="contact">
+                        <li class="contact__list">
+                            <a href="tel:+380961111111"class="contact__linktel">
+                                <svg class="contact__svg" width="10" height="16">
+                                  <use href="./images/spr-tel.svg#icon-smartphone-2"></use>
+                                </svg>
+                               +38 096 111 11 11
+                             </a>
+                         </li>
+                         <li class="contact__list">
+                             <a href="mailto:info@devstudio.com" class="contact__link">
+                                 <svg class="contact__svg" width="16" height="12">
+                                    <use href="./images/sprite.svg#icon-email"></use>
+                                 </svg>
+                                info@devstudio.com
+                                </a>
+                         </li>
+                    
+                     </ul>   
+
+                </div>
+            </div>   
+        </header> 
+                    <div class="menu__conteiner js-menu-container" id="mobile-menu">
                         <button type="button" class="menu-toggle link js-close-menu">
                             <svg width="40" height="40" >
                                 <use class="navigation__iconcross"href="./images/sprite-mobil.svg#icon-close_40px-1"></use> 
-                            </svg>  
+                            </svg> 
+                        </button> 
                     
                         <ul class="navigation__list">
                             <li class="navigation__item"><a href="./index.html"class="navigation__link navigation__link--current">Студія</a></li>
@@ -73,10 +104,10 @@
                         </li>
                         </ul> 
                     </div> 
-                </nav>
+                
                                     
-            </div>                            
-        </header>  -->
+                                      
+         
       <main>
         
           <section class="hero">
@@ -600,7 +631,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="./js/mobilmenu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 
 </body>
 </html>
