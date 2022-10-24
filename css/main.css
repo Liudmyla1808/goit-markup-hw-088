@@ -933,18 +933,21 @@ button {
 }
 
 .hero {
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto";
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
   text-align: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 766px) {
   .hero {
-    background-position: 100%;
     padding: 118px 60px;
     margin: 0 auto;
     max-width: 767px;
+    min-height: 400px;
     margin-bottom: 60px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(..//../images/Header-1x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(..//../images/Header-1x.jpg);
@@ -982,11 +985,12 @@ button {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    font-family: "Roboto";
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/Header\ tab\ 1x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/Header\ tab\ 1x.jpg);
+    padding-top: 118px;
+    padding-bottom: 204px;
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 798px;
   }
 }
 @media screen and (min-width: 1200px) {
