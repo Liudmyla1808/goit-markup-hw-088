@@ -10,17 +10,21 @@
         <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
-        <header class="page-header">
+        <!-- <header class="page-header">
             <div class="conteinerr flex-conteiner">
                 <nav class="navigation">
                    <a href="./index.html" class="navigation__logo">Web<span class="navigation__logo navigation__logo--color">Studio</span></a>
-                    <button type="button" class="navigation__button is-open" aria-expanded="false" aria-controls="menu__conteiner" data-menu-button>
-                    <svg class="navigation__svg" width="40" height="40" aria-label="перемикач моб меню">
+                    <button type="button" class="menu-toggle link js-open-menu" aria-label="перемикач моб меню" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg width="40" height="40" >
                         <use class="navigation__iconmenu" href="./images/sprite-mobil.svg#icon-menu_40px-1"></use>
-                        <use class="navigation__iconcross"href="./images/sprite-mobil.svg#icon-close_40px-1"></use> 
+                
                     </svg>  
                     </button>
-                    <div class="menu__conteiner is-open" id="menu__conteiner" data-menu>
+                    <div class="menu__conteiner js-menu-container" id="mobile menu">
+                        <button type="button" class="menu-toggle link js-close-menu">
+                            <svg width="40" height="40" >
+                                <use class="navigation__iconcross"href="./images/sprite-mobil.svg#icon-close_40px-1"></use> 
+                            </svg>  
                     
                         <ul class="navigation__list">
                             <li class="navigation__item"><a href="./index.html"class="navigation__link navigation__link--current">Студія</a></li>
@@ -72,17 +76,17 @@
                 </nav>
                                     
             </div>                            
-        </header> 
+        </header>  -->
       <main>
         
-         <!-- <section class="hero">
-            <div class="hero__conteiner">
+          <section class="hero">
+            <div class="conteinerr">
                 <h1 class="hero__text">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="hero__button" data-modal-open> Замовити послугу
             </button>
             
             </div>         
-        </section>  -->
+        </section> 
         <!-- <section class="section-perevag">
             <div class="conteiner-perevag" > 
                 <h2 class="visually-hidden"> Переваги </h2>
@@ -589,6 +593,13 @@
 
     </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+
     <script src="./js/mobilmenu.js"></script>
 
 </body>

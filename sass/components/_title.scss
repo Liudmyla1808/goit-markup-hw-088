@@ -1,8 +1,8 @@
 .hero__text{
     max-width: 360px;
-    // margin: auto;
-    margin-top: 0;
-    margin-bottom: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
     color: var(--tres-text) ;
     text-transform: uppercase;
     @include front(900, 26px);
