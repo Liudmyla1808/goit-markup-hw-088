@@ -11,14 +11,14 @@
     </head>
     <body>
         <header class="page-header">
-            <div class="conteinerr flex-conteiner">
+            <div class="conteinerr menu-header">   
                 <nav class="navigation">
-                   <a href="./index.html" class="navigation__logo">Web<span class="navigation__logo navigation__logo--color">Studio</span></a>
-                   <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-                    <svg width="40" height="40" >
-                        <use class="navigation__iconmenu" href="./images/sprite-mobil.svg#icon-menu_40px-1"></use>
-                
-                    </svg>  
+                    <a href="./index.html" class="navigation__logo">Web<span class="navigation__logo navigation__logo--color">Studio</span></a>
+                    <button  class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                            <svg class="navigation__svg" width="40" height="40" aria-label="перемикач моб меню">
+                                <use class="navigation__iconmenu" href="./images/sprite-mobil.svg#icon-menu_40px-1"></use>
+                                
+                            </svg>  
                     </button>
                     <ul class="navigation__list">
                         <li class="navigation__item"><a href="./index.html"class="navigation__link navigation__link--current">Студія</a></li>
@@ -30,84 +30,77 @@
                     <ul class="contact">
                         <li class="contact__list">
                             <a href="tel:+380961111111"class="contact__linktel">
-                                <svg class="contact__svg" width="10" height="16">
-                                  <use href="./images/spr-tel.svg#icon-smartphone-2"></use>
+                                <svg class="contact__svg" width="10" height="14">
+                                    <use href="./images/spr-tel.svg#icon-smartphone-2"></use>
                                 </svg>
-                               +38 096 111 11 11
-                             </a>
-                         </li>
-                         <li class="contact__list">
-                             <a href="mailto:info@devstudio.com" class="contact__link">
-                                 <svg class="contact__svg" width="16" height="12">
-                                    <use href="./images/sprite.svg#icon-email"></use>
-                                 </svg>
-                                info@devstudio.com
-                                </a>
-                         </li>
-                    
-                     </ul>   
-
-                </div>
-            </div>   
-        </header> 
-                    <div class="menu__conteiner js-menu-container" id="mobile-menu">
-                        <button type="button" class="menu-toggle link js-close-menu">
-                            <svg width="40" height="40" >
-                                <use class="navigation__iconcross"href="./images/sprite-mobil.svg#icon-close_40px-1"></use> 
-                            </svg> 
-                        </button> 
-                    
-                        <ul class="navigation__list">
-                            <li class="navigation__item"><a href="./index.html"class="navigation__link navigation__link--current">Студія</a></li>
-                            <li class="navigation__item"><a href="./portfolio.html"class="navigation__link">Портфоліо</a></li>
-                            <li class="navigation__item"><a href="#"class="navigation__link">Контакти</a></li>
-                        </ul>
-                    
-                        <ul class="contact">
-                           <li class="contact__list">
-                               <a href="tel:+380961111111"class="contact__linktel">
-                                   <svg class="contact__svg" width="10" height="16">
-                                     <use href="./images/spr-tel.svg#icon-smartphone-2"></use>
-                                   </svg>
-                                  +38 096 111 11 11
-                                </a>
-                            </li>
+                            +38 096 111 11 11
+                            </a>
+                        </li>
                             <li class="contact__list">
                                 <a href="mailto:info@devstudio.com" class="contact__link">
-                                    <svg class="contact__svg" width="16" height="12">
+                                    <svg class="contact__svg" width="14" height="10">
                                        <use href="./images/sprite.svg#icon-email"></use>
                                     </svg>
                                    info@devstudio.com
                                    </a>
                             </li>
                        
-                        </ul>    
-                    
-                            
-                        <ul class="network">
-                        <li class="network__item">
-                            <a href="" class="network__link">Instagram
-                             </a>
-                        </li>
-                        <li class="network__item">
-                            <a href="" class="network__link">Twitter
-                            </a>    
-                        </li>
-                          <li class="network__item">
-                              <a href="" class="network__link">Facebook
-                               </a>
-                         </li>
-                         <li class="network__item">
-                               <a href="" class="network__link">LinkedIn
-                              </a>
+                </ul> 
+                </div>
+            </div>
+        </header>    
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+                    <svg width="40px" height="40px">
+                        <use class="navigation__iconcross"href="./images/sprite-mobil.svg#icon-close_40px-1"></use>
+                    </svg>
+            </button>      
+            <ul class="mobile-menu">
+                <li class="navigation__items"><a href="./index.html"class="navigation__linkmob navigation__link--currentmob">Студія</a></li>
+                 <li class="navigation__items"><a href="./portfolio.html"class="navigation__linkmob">Портфоліо</a></li>
+                <li class="navigation__items"><a href="#"class="navigation__linkmob">Контакти</a></li>
+            </ul>  
+            <ul class="mobile-contacts">
+                 <li class="contact__list">
+                    <a href="tel:+380961111111"class="contact__linktelmob">
+                        <!-- <svg class="contact__svg" width="10" height="16">
+                            <use href="./images/spr-tel.svg#icon-smartphone-2"></use>
+                        </svg> -->
+                    +38 096 111 11 11
+                    </a>
+                </li>
+                <li class="contact__list">
+                        <a href="mailto:info@devstudio.com" class="contact__linkmob">
+                            <!-- <svg class="contact__svg" width="16" height="12">
+                               <use href="./images/sprite.svg#icon-email"></use>
+                            </svg> -->
+                           info@devstudio.com
+                           </a>
+                </li>
+            </ul>       
+            <ul class="network">
+                <li class="network__item">
+                    <a href="" class="network__link">Instagram
+                    </a>
+                </li>
+                <li class="network__item">
+                    <a href="" class="network__link">Twitter
+                    </a>    
+                </li>
+                <li class="network__item">
+                    <a href="" class="network__link">Facebook
+                    </a>
+                </li>
+                <li class="network__item">
+                    <a href="" class="network__link">LinkedIn
+                    </a>
 
-                        </li>
-                        </ul> 
-                    </div> 
-                
-                                    
-                                      
-         
+                </li>
+            </ul> 
+        </div>
+
+        
+
       <main>
         
           <section class="hero">
@@ -215,7 +208,7 @@
                         media="(max-width: 767px)"
                         />
                     
-                    <img src="./images/mobil/igor-mob -1x.jpg" width="450" height="460" alt="фото чоловіка в коричневій сорочці">
+                    <img src="./images/mobil/igor-mob -1x.jpg" width="450" alt="фото чоловіка в коричневій сорочці">
                 </picture>
                     <div class="worker">
                         <h3 class="comand__titl">Ігор Дем'яненко</h3>
@@ -273,7 +266,7 @@
                         ./images/mobil/olga-mob-2x.jpg 2x"
                         media="(max-width: 767px)"
                         />
-                    <img src="./images/mobil/olga-mob-2x.jpg 2x" width="450" height="460" alt="фото жінки з білявим волоссям">
+                    <img src="./images/mobil/olga-mob-2x.jpg 2x" width="450" alt="фото жінки з білявим волоссям">
                     </picture>
                     <div class="worker">
                         <h3 class="comand__titl">Ольга Рєпіна</h3>
@@ -331,7 +324,7 @@
                         ./images/mobil/Mukola-mob-2x.jpg 2x"
                         media="(max-width: 767px)"
                         />
-                    <img src="./images/worker3.jpg" width="450" height="460" alt="фото чоловіка в блакитній сорочці ">
+                    <img src="./images/worker3.jpg" width="450" alt="фото чоловіка в блакитній сорочці ">
                      </picture>
                     <div class="worker">
                         <h3 class="comand__titl">Микола Тарасов</h3>
@@ -390,7 +383,7 @@
                         ./images/mobil/Mih-mob-2x.jpg 2x"
                         media="(max-width: 767px)"
                         />
-                    <img src="./images/mobil/Mih-mob-2x.jpg 2x" width="450" height="460" alt="фото чоловіка в чорній футболці">
+                    <img src="./images/mobil/Mih-mob-2x.jpg 2x" width="450" alt="фото чоловіка в чорній футболці">
                 </picture>
                     <div class="worker">
                         <h3 class="comand__titl">Михайло Єрмаков</h3>
@@ -632,8 +625,8 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-
     <script src="./js/mobile-menu.js"></script>
-
+    
 </body>
 </html>
+
