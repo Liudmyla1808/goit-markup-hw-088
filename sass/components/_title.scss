@@ -34,15 +34,15 @@
     line-height: 1.17;
     text-align: center;
     font-weight: 700;
-    @media screen and (min-width: 1200px) {
-    margin-bottom: 50px;
-    font-size: 36px;
-}
+    
     @media screen and (min-width: 768px) {
-        margin-bottom: 50px;
-        @include front(700, 36px);
+        margin-bottom: 30px;
         
       }
+      @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
 }
 .post-client__text{
     margin-bottom: 30px;
@@ -55,9 +55,13 @@
 
   
 @media screen and (min-width: 768px) {
-    @include front(700, 36px );
-    margin-bottom: 50px;
+    
+    margin-bottom: 30px;
   }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
 }
 .visually-hidden {
     position: absolute;

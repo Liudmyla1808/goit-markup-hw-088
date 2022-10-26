@@ -66,7 +66,7 @@
 
 .mobile-contacts {
 
-  margin-top: 302px;
+  margin-top: auto;
 }
 .contact__linktelmob {
   margin-top: 320px;
@@ -275,9 +275,15 @@ color: #757575;
     margin-left: 322px;
 }
 }  
-
-
-
-
+ 
+ .wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+.mobile-menu{
+  flex-grow: 1;
+}
 
 
