@@ -989,6 +989,7 @@ button {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    height: 400px;
     margin: 0 auto;
     max-width: 767px;
     min-height: 400px;
