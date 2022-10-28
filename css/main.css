@@ -625,6 +625,11 @@ button {
           justify-content: flex-end;
 }
 
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--accent-color);
+}
+
 .menu-container {
   position: fixed;
   top: 0;
@@ -868,6 +873,25 @@ button {
 
 .contact__svg {
   margin-right: 8px;
+  fill: currentColor;
+  margin-right: 10px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__svg:hover,
+.contact__svgl:focus {
+  fill: var(--accent-color);
+}
+
+.contact__linktel:hover,
+.contact__linktel:focus {
+  color: var(--accent-color);
+}
+
+.contact__link:hover,
+.contact__link:focus {
+  color: var(--accent-color);
 }
 
 .header-contacts {
@@ -1424,6 +1448,28 @@ button {
   height: auto;
 }
 
+.soc-network__link:hover,
+.soc-network__link:focus {
+  background-color: var(--accent-color);
+}
+
+.soc-network__link:hover .soc-network__icon,
+.soc-network__link:focus .csoc-network__icon {
+  fill: var(--dcg-color);
+}
+
+.soc-network__icon {
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.soc-network__icon:hover {
+  fill: #fff;
+}
+.soc-network__icon:focus {
+  fill: #fff;
+}
+
 .post-client {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1484,6 +1530,7 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   border: 1px solid #AFB1B8;
+  border-radius: 4%;
   color: #AFB1B8;
   fill: #AFB1B8;
   -webkit-transition: border-color, fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1786,7 +1833,6 @@ button {
 }
 
 .input-pidpus {
-  height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1795,7 +1841,6 @@ button {
   background: #2F303A;
   color: var(--tres-text);
   font-size: 16px;
-  margin-left: 15px;
 }
 @media screen and (max-width: 1200px) {
   .input-pidpus {
