@@ -880,7 +880,7 @@ button {
 }
 
 .contact__svg:hover,
-.contact__svgl:focus {
+.contact__svg:focus {
   fill: var(--accent-color);
 }
 
